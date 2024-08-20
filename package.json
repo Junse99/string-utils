@@ -1,0 +1,23 @@
+{
+  "name": "string-utils",
+  "version": "1.0.0",
+  "description": "A utility library for string manipulation in JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "string",
+    "utilities",
+    "javascript"
+  ],
+  "author": "junse99",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.4",
+    "typescript": "^5.5.4"
+  }
+}
