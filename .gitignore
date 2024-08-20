@@ -1,2 +1,5 @@
 # Ignorar la carpeta dist
 dist/
+
+# Dependencias de npm
+node_modules/
