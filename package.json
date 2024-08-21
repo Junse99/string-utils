@@ -1,6 +1,6 @@
 {
   "name": "string-utils-junse99",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A utility library for string manipulation in JavaScript",
   "main": "dist/index.js",
   "scripts": {
