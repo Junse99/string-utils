@@ -1,37 +1,11 @@
 "use strict";
-// src/index.ts
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.capitalize = capitalize;
-exports.reverse = reverse;
-exports.kebabCase = kebabCase;
-exports.truncate = truncate;
-/**
- * Capitaliza la primera letra de una cadena.
- */
-function capitalize(str) {
-    if (!str)
-        return '';
-    return str.charAt(0).toUpperCase() + str.slice(1);
-}
-/**
- * Invierte una cadena de texto.
- */
-function reverse(str) {
-    return str.split('').reverse().join('');
-}
-/**
- * Convierte una cadena en formato kebab-case.
- */
-function kebabCase(str) {
-    return str
-        .replace(/\s+/g, '-')
-        .toLowerCase();
-}
-/**
- * Trunca una cadena a una longitud específica.
- */
-function truncate(str, length) {
-    if (str.length <= length)
-        return str;
-    return str.slice(0, length) + '...';
-}
+exports.truncate = exports.kebabCase = exports.reverse = exports.capitalize = void 0;
+var capitalize_1 = require("./capitalize");
+Object.defineProperty(exports, "capitalize", { enumerable: true, get: function () { return capitalize_1.capitalize; } });
+var reverse_1 = require("./reverse");
+Object.defineProperty(exports, "reverse", { enumerable: true, get: function () { return reverse_1.reverse; } });
+var kebab_case_1 = require("./kebab-case");
+Object.defineProperty(exports, "kebabCase", { enumerable: true, get: function () { return kebab_case_1.kebabCase; } });
+var truncate_1 = require("./truncate");
+Object.defineProperty(exports, "truncate", { enumerable: true, get: function () { return truncate_1.truncate; } });

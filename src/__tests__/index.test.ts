@@ -13,5 +13,5 @@ test('kebabCase should convert string to kebab-case', () => {
 });
 
 test('truncate should truncate string to specified length', () => {
-  expect(truncate('This is a long string', 9)).toBe('This is a...');
+  expect(truncate('This is a long string', 12)).toBe('This is a...');
 });

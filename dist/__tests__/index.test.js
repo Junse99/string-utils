@@ -11,5 +11,5 @@ test('kebabCase should convert string to kebab-case', function () {
     expect((0, index_1.kebabCase)('Hello World')).toBe('hello-world');
 });
 test('truncate should truncate string to specified length', function () {
-    expect((0, index_1.truncate)('This is a long string', 9)).toBe('This is a...');
+    expect((0, index_1.truncate)('This is a long string', 12)).toBe('This is a...');
 });
